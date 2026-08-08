@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    body{
+      border: 2px solid skyblue;
+      padding: 20px;
+    }
+    h1{
+      text-align: center;
+      color: skyblue;
+      text-shadow: 2px 2px 3px black;
+    }
+    form{
+      align-items: center;
+      text-align: center;
+      font-family: serif;
+      max-width: 400px;
+      margin: auto;
+    }
+      input{
+        outline: none;
+        border: 2px solid skyblue;
+        padding: 8px;
+        width: 80%;
+        margin: 5px 0;
+      }
+      input:hover{
+        border: none;
+        border-bottom: 2px solid skyblue;
+      }
+      button{
+        background: green;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-weight: bold;
+        height: 35px;
+        padding: 10px 20px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>LOGIN</h1>
+  <form action="" method="get" accept-charset="utf-8">
+    <label for="username">Username:</label><br>
+    <input type="text" name="username" id="username" placeholder="Enter your username" required><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" name="password" id="password" placeholder="Enter your password" required><br><br>
+    
+    <button type="submit">Login</button>
+  </form>
+  </body>
+</html>
